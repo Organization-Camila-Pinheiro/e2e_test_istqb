@@ -23,7 +23,7 @@ module.exports = defineConfig({
     setupNodeEvents,
     specPattern: "cypress/e2e/features/*.feature",
     projectId: "r5m4ny", //CYPRESS CLOUD PROJECT ID
-    baseUrl: "https://www.bootcampqa.com/",
+    baseUrl: "https://organization-camila-pinheiro.github.io/istqb-test-project/",
     chromeWebSecurity: true
   },
 });
