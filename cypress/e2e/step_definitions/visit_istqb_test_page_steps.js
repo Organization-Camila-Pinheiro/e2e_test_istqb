@@ -6,13 +6,14 @@ import {
 
 Given("the student is on the istqb test page", () => { 
 // visitar una pagina web diferente a la base url
-//cy.visit("https://www.bootcampqa.com/");
+cy.visit("https://www.bootcampqa.com/");
+
+//borrar todas las cookies. 
+//Por defecto ya se borran en cypress antes de inciar el test por lo que no suele ser necesario usarlo
+cy.clearCookies();
 
 // cuando esta definida en cypress.confg.js la base url
 cy.visit("/")
-
-//borrar todas las cookies
-cy.clearCookies();
 
 //recargar una pagina
 cy.reload();
