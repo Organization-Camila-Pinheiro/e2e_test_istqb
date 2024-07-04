@@ -60,9 +60,4 @@ And the student answers all questions:
 
 And clicks on the button finish the exam  
 And the student clicks on the button Ranking
-Then the student should see the information with the ranking "Nombre: Camila
-Puntuación final: 20
-Nombre: Marina
-Puntuación final: 0
-Nombre: Bruno
-Puntuación final: -10"
+Then the student should see the information with the ranking "Nombre: Camila Puntuación final: 20 Nombre: Marina Puntuación final: 0 Nombre: Bruno Puntuación final: -10"
