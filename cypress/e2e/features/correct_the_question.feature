@@ -1,7 +1,7 @@
 Feature: Correct the question
 As a student, I want to correct my question, So than I can see if my answer is correct or wrong and see the score.
 
-Scenario Outline: Answer the question 
+Scenario Outline: Answer a question 
 
 Given the student is on the ISTQB exam website
 When the student selects an answer <studentAnswer> on question <questionNumber>
