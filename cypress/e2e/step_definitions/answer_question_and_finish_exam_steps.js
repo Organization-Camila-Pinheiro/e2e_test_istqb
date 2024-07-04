@@ -16,7 +16,7 @@ When("clicks on the button finish the exam", () => {
 
 })
 
-When("the user should see a message {string}", (finalScoreMessage) => {
+Then("the user should see a message {string}", (finalScoreMessage) => {
     cy.get('[data-cy="puntuacion-final"]').should("have.text", finalScoreMessage);
 
 })
