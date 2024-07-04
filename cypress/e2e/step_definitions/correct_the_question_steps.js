@@ -10,7 +10,7 @@ When("the student selects an answer {string} on question {string}", (studentAnsw
     });
 
 When("the student clicks on Correct button on question {string}", (questionNumber) => { 
-    cy.get('[data-cy="button-show-answer-question'+questionNumber+'"]').click(); 
+    cy.get('[data-cy="button-correct-answer-question'+questionNumber+'"]').click(); 
     
     });
 
