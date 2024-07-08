@@ -9,7 +9,7 @@ And the student clicks on Correct button on question <questionNumber>
 Then the student should see the message <answerMessage> on question <questionNumber>
 
 Examples:
-|questionNumber| studentAnswer | answerMessage                       |
+|questionNumber| studentAnswer | answerMessage                         |
 |  "2"         |      "A"      | "Respuesta equivodada! Puntuación: -1"|
 |  "2"         |      "C"      | "Respuesta correcta! Puntuación: 2"   |
 |  "2"         |      ""       | "Respuesta equivodada! Puntuación: 0" |

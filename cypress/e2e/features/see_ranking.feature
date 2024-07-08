@@ -7,9 +7,9 @@ Scenario:
 Given the student is on the ISTQB exam website
 When the student enters the name "Camila"
 And press a button Enter
-And the student answers all questions:
+And the student answers the questions:
 
-|questionNumber | correctAnswer |
+|questionNumber |selectedAnswer |
 | 1             |      C        |    
 | 2             |      C        |   
 | 3             |      A        |     
@@ -26,9 +26,9 @@ And clicks on the button finish the exam
 
 When the student enters the name "Bruno"
 And press a button Enter
-And the student answers all questions:
+And the student answers the questions:
 
-|questionNumber |  wrongAnswer | 
+|questionNumber |selectedAnswer| 
 | 1             |        A     |     
 | 2             |        B     |           
 | 3             |        C     |            
@@ -44,19 +44,19 @@ And clicks on the button finish the exam
 
 When the student enters the name "Marina"
 And press a button Enter
-And the student answers all questions:
+And the student answers the questions:
 
-|questionNumber | emptyAnswer |
-| 1             |             |
-| 2             |             |
-| 3             |             |
-| 4             |             |
-| 5             |             |
-| 6             |             |
-| 7             |             |
-| 8             |             |
-| 9             |             |
-| 10            |             |
+|questionNumber |selectedAnswer|
+| 1             |              |
+| 2             |              |
+| 3             |              |
+| 4             |              |
+| 5             |              |
+| 6             |              |
+| 7             |              |
+| 8             |              |
+| 9             |              |
+| 10            |              |
 
 And clicks on the button finish the exam  
 And the student clicks on the button Ranking

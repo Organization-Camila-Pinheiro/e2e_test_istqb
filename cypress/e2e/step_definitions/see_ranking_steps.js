@@ -5,16 +5,6 @@ import {
 } from "@badeball/cypress-cucumber-preprocessor";
 
 
-
-When("the student answers all questions:", (dataTable) => {
-    dataTable.hashes().forEach(element => {
-        cy.get('[data-cy="select-question' + element.questionNumber + '"]').select(element.correctAnswer,element.wrongAnswer,element.emptyAnswer);
-        
-    });
-    
-
-});
-
 When("the student clicks on the button Ranking", () => {
     cy.get('[data-cy="button-ranking"]').click();
 
