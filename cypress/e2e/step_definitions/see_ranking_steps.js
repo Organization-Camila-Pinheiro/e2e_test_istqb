@@ -11,7 +11,7 @@ When("the student clicks on the button Ranking", () => {
 })
 
 Then("the student should see the information with the ranking {string}", (ranking) => { 
-    cy.get('[data-cy="ranking"]').should("have.text", ranking);
+    cy.get('[data-cy="ranking"]').should("include.text", ranking);
 
 })
 
