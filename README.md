@@ -4,7 +4,7 @@
 > Javascript, Cypress with Cucumber example project.
 
 ### 💻 Description
-E2e tests for https://organization-camila-pinheiro.github.io/istqb-test-project/
+E2e tests for https://github.com/cam-pinheiro/istqb-test-project/
 
 JIRA PROJECT (ACCESS REQUIRED): https://camilaqa.atlassian.net/jira/software/projects/IOT/boards/4 
 - ## 💻 Pre-requisites
@@ -30,7 +30,7 @@ Execute node comand in a terminal: npm i
 
 
 ##  Run tests on CI with github Actions:
-1. Run tests on CI: https://github.com/Organization-Camila-Pinheiro/e2e_test_istqb/actions/workflows/main.yml
+1. Run tests on CI: https://github.com/cam-pinheiro/E2E_Cypress_-Cucumber_test_ISTQB/actions/workflows/main.yml
 2. See test results on Cypress Cloud: https://cloud.cypress.io/projects/r5m4ny/runs
 
 ## Author
